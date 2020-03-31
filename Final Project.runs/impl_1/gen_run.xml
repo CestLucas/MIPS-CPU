@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z010iclg400-1L" LaunchTime="1494020825">
+  <File Type="PWROPT-DRC" Name="miniCPU_drc_pwropted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="miniCPU_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="miniCPU_timing_summary_init.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="miniCPU_power_routed.rpx"/>
+  <File Type="PA-TCL" Name="miniCPU.tcl"/>
+  <File Type="OPT-HWDEF" Name="miniCPU.hwdef"/>
+  <File Type="RDI-RDI" Name="miniCPU.vdi"/>
+  <File Type="OPT-DCP" Name="miniCPU_opt.dcp"/>
+  <File Type="OPT-DRC" Name="miniCPU_drc_opted.rpt"/>
+  <File Type="OPT-TIMING" Name="miniCPU_timing_summary_opted.rpt"/>
+  <File Type="PWROPT-DCP" Name="miniCPU_pwropt.dcp"/>
+  <File Type="PWROPT-TIMING" Name="miniCPU_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="miniCPU_placed.dcp"/>
+  <File Type="PLACE-IO" Name="miniCPU_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="miniCPU_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="miniCPU_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="miniCPU_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="miniCPU_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="miniCPU_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="miniCPU_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-TIMING" Name="miniCPU_timing_summary_placed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="miniCPU_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="miniCPU_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="miniCPU_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="miniCPU_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="miniCPU_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="miniCPU_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="miniCPU_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="miniCPU_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="miniCPU_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="miniCPU_drc_routed.pb"/>
+  <File Type="BG-BIN" Name="miniCPU.bin"/>
+  <File Type="ROUTE-DRC-RPX" Name="miniCPU_drc_routed.rpx"/>
+  <File Type="BG-DRC" Name="miniCPU.drc"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="miniCPU_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-MSK" Name="miniCPU.msk"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="miniCPU_methodology_drc_routed.rpx"/>
+  <File Type="BG-BGN" Name="miniCPU.bgn"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="miniCPU_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="miniCPU_power_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="miniCPU_power_summary_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="miniCPU_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="miniCPU_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="miniCPU_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="miniCPU_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="miniCPU_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="miniCPU_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="miniCPU_clock_utilization_routed.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="miniCPU_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="miniCPU_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="miniCPU_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="miniCPU_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="miniCPU_timing_summary_postroute_physopted.rpx"/>
+  <File Type="BG-BIT" Name="miniCPU.bit"/>
+  <File Type="BITSTR-RBT" Name="miniCPU.rbt"/>
+  <File Type="BITSTR-NKY" Name="miniCPU.nky"/>
+  <File Type="BITSTR-BMM" Name="miniCPU_bd.bmm"/>
+  <File Type="BITSTR-MMI" Name="miniCPU.mmi"/>
+  <File Type="BITSTR-SYSDEF" Name="miniCPU.sysdef"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/Final Project.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="miniCPU"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/VivadoDemo/ZYBO_MASTER.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../VivadoDemo/VivadoDemo/ZYBO_MASTER.xdc"/>
+        <Attr Name="ImportTime" Val="1488952934"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2016"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
